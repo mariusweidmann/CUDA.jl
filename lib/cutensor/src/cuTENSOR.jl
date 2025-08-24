@@ -2,6 +2,7 @@ module cuTENSOR
 
 using CUDA
 using CUDA.APIUtils
+using GPUToolbox
 using CUDA: CUstream, cudaDataType
 using CUDA: retry_reclaim, initialize_context, isdebug
 
